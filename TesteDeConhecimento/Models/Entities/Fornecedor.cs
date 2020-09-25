@@ -23,7 +23,7 @@ namespace TesteDeConhecimento.Models.Entities
 
         public string Complemento { get; set; }
 
-        public string Bairro { get; set; }
+        public string Bairro { get; set; } 
 
         public DateTime DataDeInclusao { get; private set; } = DateTime.Today;
 
